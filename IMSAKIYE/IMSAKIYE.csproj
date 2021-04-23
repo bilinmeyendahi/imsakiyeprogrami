@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F60EDB81-8179-419B-9300-512C2E801B60}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>IMSAKIYE</RootNamespace>
+    <AssemblyName>IMSAKIYE</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Google-Noto-Emoji-Travel-Places-42505-mosque.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoWin32Manifest>true</NoWin32Manifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBox1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox1.designer.cs">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmana.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmana.designer.cs">
+      <DependentUpon>frmana.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmbolgesec.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmbolgesec.designer.cs">
+      <DependentUpon>frmbolgesec.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmdonem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmdonem.designer.cs">
+      <DependentUpon>frmdonem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmdonemsec.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmdonemsec.designer.cs">
+      <DependentUpon>frmdonemsec.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDonemTanim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDonemTanim.designer.cs">
+      <DependentUpon>FrmDonemTanim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmgiris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmgiris.designer.cs">
+      <DependentUpon>frmgiris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmHatirla.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmHatirla.designer.cs">
+      <DependentUpon>FrmHatirla.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmImsakiye.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmImsakiye.designer.cs">
+      <DependentUpon>FrmImsakiye.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmozel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmozel.designer.cs">
+      <DependentUpon>frmozel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmozelsec.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmozelsec.designer.cs">
+      <DependentUpon>frmozelsec.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOzelTanim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOzelTanim.designer.cs">
+      <DependentUpon>FrmOzelTanim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVakit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVakit.designer.cs">
+      <DependentUpon>FrmVakit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVakitTanim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVakitTanim.designer.cs">
+      <DependentUpon>FrmVakitTanim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUserList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUserList.Designer.cs">
+      <DependentUpon>frmUserList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmUserTanim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUserTanim.Designer.cs">
+      <DependentUpon>FrmUserTanim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmbolge.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmbolge.designer.cs">
+      <DependentUpon>frmbolge.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SqlClass.cs" />
+    <EmbeddedResource Include="AboutBox1.resx">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmana.resx">
+      <DependentUpon>frmana.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmbolgesec.resx">
+      <DependentUpon>frmbolgesec.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmdonem.resx">
+      <DependentUpon>frmdonem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmdonemsec.resx">
+      <DependentUpon>frmdonemsec.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDonemTanim.resx">
+      <DependentUpon>FrmDonemTanim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmgiris.resx">
+      <DependentUpon>frmgiris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmHatirla.resx">
+      <DependentUpon>FrmHatirla.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmImsakiye.resx">
+      <DependentUpon>FrmImsakiye.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmozel.resx">
+      <DependentUpon>frmozel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmozelsec.resx">
+      <DependentUpon>frmozelsec.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOzelTanim.resx">
+      <DependentUpon>FrmOzelTanim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVakit.resx">
+      <DependentUpon>FrmVakit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVakitTanim.resx">
+      <DependentUpon>FrmVakitTanim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUserList.resx">
+      <DependentUpon>frmUserList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUserTanim.resx">
+      <DependentUpon>FrmUserTanim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmbolge.resx">
+      <DependentUpon>frmbolge.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Oxygen-Icons.org-Oxygen-Actions-list-add-user.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icons8-Ios7-Users-Edit-User.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iconshock-Cms-User.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Oxygen-Icons.org-Oxygen-Actions-user-group-delete.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Custom-Icon-Design-Flatastic-8-Go-back.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icons8-Ios7-User-Interface-Save-As.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bliss_XP.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\colorful-website-login-ui-design-vector_14791-102.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Custom-Icon-Design-Flatastic-8-Content-reorder.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Custom-Icon-Design-Flatastic-4-Add-item.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Papirus-Team-Papirus-Apps-Iron-product-logo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Custom-Icon-Design-Flatastic-2-Product.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hopstarter-Soft-Scraps-File-Delete.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hopstarter-Button-Button-Close.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kearone-Platecons-Adressbook-add-user.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icons-Land-Vista-People-Groups-Meeting-Dark.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Custom-Icon-Design-Pretty-Office-4-Edit-female-user.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Oxygen-Icons.org-Oxygen-Actions-user-group-delete1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Awicons-Vista-Artistic-Coin-add.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gokyo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\25607319.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\25607319.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\256073191.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\256073192.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2560731921.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fatcow-Farm-Fresh-Date-edit.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fatcow-Farm-Fresh-Date-delete.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Google-Noto-Emoji-Travel-Places-42505-mosque.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
